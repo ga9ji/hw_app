@@ -12,6 +12,11 @@ gem 'rails', '~> 5.0.1'
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+
+# Use unicorn as the app server
+gem 'unicorn', '~> 5.2'
+gem 'unicorn-rails', '~> 2.2', '>= 2.2.1'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
